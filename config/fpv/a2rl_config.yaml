@@ -2,7 +2,7 @@
 
 #common parameters
 imu_topic: "/imu/data_raw"
-image_topic: "/cam0/image_raw"
+image_topic: "/camera/image_raw"
 output_path: "/home/dev/output"
 
 #camera calibration 
@@ -38,7 +38,7 @@ extrinsicRotation: !!opencv-matrix
    rows: 3
    cols: 3
    dt: d
-   data: [0.011049440609010253, -0.9999352525141028, 0.0027204120619487293
+   data: [0.011049440609010253, -0.9999352525141028, 0.0027204120619487293,
            0.7358237353448744, 0.006288737366952457, -0.6771439154902352, 
            0.6770829641671287, 0.009483805243062415, 0.7358455796379887]
 
